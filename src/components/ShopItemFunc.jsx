@@ -23,6 +23,6 @@ export default function ShopItemFunc(props) {
 }
 
 ShopItemFunc.propTypes = {
-    user: PropTypes.instanceOf(Item)
+    item: PropTypes.instanceOf(Item)
 
 }
